@@ -21,10 +21,10 @@
 
     @media (min-width: var.$tablet-width) {
       background: image-set(
-        url("../img/cat-before-tablet@1x.png") 1x,
+        url("../img/cat-before-tablet@2x.webp") 2x,
         url("../img/cat-before-tablet@2x.png") 2x,
         url("../img/cat-before-tablet@1x.webp") 1x,
-        url("../img/cat-before-tablet@2x.webp") 2x) no-repeat left / auto 100%;
+        url("../img/cat-before-tablet@1x.png") 1x) no-repeat left / auto 100%;
     }
   }
 
@@ -42,9 +42,9 @@
 
     @media (min-width: var.$tablet-width) {
       background: image-set(
+        url("../img/cat-after-tablet@2x.webp") 2x,
         url("../img/cat-after-tablet@2x.png") 2x,
-        url("../img/cat-after-tablet@2x.png") 2x,
-        url("../img/cat-after-tablet@1x.png") 1x,
+        url("../img/cat-after-tablet@1x.webp") 1x,
         url("../img/cat-after-tablet@1x.png") 1x) no-repeat right / auto 100%;
     }
   }
