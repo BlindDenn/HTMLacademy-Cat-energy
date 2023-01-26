@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Linting
-        run: npm lint
+        run: npm run lint
 
       - name: Building
         run: npm run build
